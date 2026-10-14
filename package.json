@@ -1,0 +1,22 @@
+{
+  "name": "ficbook-autoreg",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "bun run src/index.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@types/lodash.debounce": "^4.0.9",
+    "ficbook": "^1.4.3",
+    "lodash.debounce": "^4.0.8",
+    "mailporary": "^1.1.3",
+    "tor-control-ts": "^1.0.0"
+  }
+}
